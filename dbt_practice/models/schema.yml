@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: movie_dataset
+    database : dellstore
+    schema : public
+    tables:
+      - name: categories
+      - name: cust_hist
+      - name: customers
+      - name: inventory
+      - name: orderlines
+      - name: orders
+      - name: products
+      - name: reorder
+      - name: first_name_count_price
